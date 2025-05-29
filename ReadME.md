@@ -40,12 +40,12 @@ Then open your browser at:
 
 ---
 
-## 🧠 AI Tools / APIs Used
+## 🧠 Tools / APIs Used
 
 -  **No external AI APIs used**  
--  AI logic is implemented locally using a basic rule-based parser inside the `ChatAssistant` component.
+-  Implemented locally using a basic rule-based parser inside the `ChatAssistant` component.
 
-For full AI capabilities (e.g., ChatGPT), you can later integrate OpenAI’s API or similar.
+
 
 ---
 
@@ -53,7 +53,7 @@ For full AI capabilities (e.g., ChatGPT), you can later integrate OpenAI’s API
 
 - Assumes consistent monthly payments with no interruptions.
 - Uses simplified amortization logic.
-- AI assistant uses hardcoded keyword matching — not real NLP.
+- Hardcoded keyword matching — NLP.
 - No backend — calculations run entirely in the browser.
 - Doesn't persist user input or results.
 - Mobile responsiveness is minimal.
@@ -65,3 +65,4 @@ For full AI capabilities (e.g., ChatGPT), you can later integrate OpenAI’s API
 - [Next.js](https://nextjs.org/) (React)
 - TypeScript
 - HTML/CSS (inline styles)
+- Expo
